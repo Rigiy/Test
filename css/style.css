@@ -1,0 +1,127 @@
+﻿body {
+	background: #c4cea4;
+}
+.wraper {
+	width: 1024px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+
+/*-----------HEADER---------------*/
+
+.header {background: url("../image/sprite_top.png") left top repeat-x;}
+.header-top {
+	margin: 0 15px 0 27px;
+	padding-top: 22px;
+	overflow: hidden;
+}
+.header-logo {
+	float: left;
+}
+.header-user-list {
+	float: right;
+}
+.header-user-list-item {
+	display: inline-block;
+	font: 10px verdana, sans-serif;
+	margin: 0 8px 0;
+}
+.MyAccount {
+	padding-left: 26px;
+	background: url("../image/sprite.png") left top no-repeat;
+}
+.header-user-list-item a {color: #808789;}
+.header-user-list-item a:hover {
+	color: #4e5863;
+	text-decoration: underline;
+}
+.items-cart {	
+	padding-right: 20px;
+	background: url("../image/sprite.png") right -21px no-repeat;
+}
+.header-user-list-item .items-cart  {color: #778e50;}
+.header-user-list-item .items-cart:hover {
+	color: #4d6c1b;
+	background: url("../image/sprite.png") right -34px no-repeat;
+}
+.header-cart {
+	width: 352px;
+	height: 171px;
+	border: 1px solid #c4c7b5;
+}
+.header-cart-title {
+	height: 18px;
+	border-bottom: 1px solid #c4c7b5;
+	background: #f1f3eb;
+}
+.title-btn {margin: 4px 0 4px 191px;}
+.cart-center {
+	height: 62px;
+	border-bottom: 1px solid #c4c7b5;
+}
+.cart-center-text {
+	font: 10px verdana, sans-serif;
+	display: block;
+	margin: 9px 0 0 9px;
+	color: #4e5863;
+}
+.first-text {
+	margin-left: 8px;
+	color: #778e50;
+}
+.first-text:hover {
+	color: #4d6c1b;
+	border-bottom: 1px solid #a6b58d;
+}
+.first-span {
+	float: right;
+	margin-right: 10px;
+}
+.second-text {
+	display: inline-block;
+	width: 200px;
+}
+
+.menu {display: inline-block}
+.menu-title-center {
+	display: block;
+	font: 13px/54px verdana, sans-serif;
+	width: 180px;
+	padding: 0 0 0 25px;
+	background: url("../image/sprite_menu.png") left top repeat-x;
+}
+.menu-title-right {
+	display: block;
+	padding-right: 21px;
+	background: url("../image/sprite_menu_right.png") right top no-repeat;
+}
+.title {
+	margin: 21px 0 20px 25px;
+}
+.title-roll {
+	margin: 0 0 21px 5px;
+}
+.menu-list {
+	float: left;
+	display: none;
+	width: 204px;
+	height: 251px;
+}
+.list-items {
+	padding: 4px 9px 3px 11px;
+	background: #808789;
+	border-bottom: 1px solid #aab4b0;
+}
+.items {
+	display: block;
+	font: 11px verdana, sans-serif;
+	color: #fff;
+	padding-right: 5px;
+	background: url("../image/menu_roll_items.png") right top no-repeat;
+}
+.list-items-last {
+	border-bottom: none;
+}
+.menu:hover  .menu-list{display: block;}
+.menu-a {display: block;}
