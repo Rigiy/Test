@@ -1,5 +1,6 @@
 ﻿body {
 	background: #c4cea4;
+	font: 12px verdana, sans-serif;
 }
 .wraper {
 	width: 1024px;
@@ -41,7 +42,7 @@
 	color: #4e5863;
 	text-decoration: underline;
 }
-.items-cart {	
+.items-cart {
 	padding-right: 20px;
 	background: url("../image/sprite.png") right -21px no-repeat;
 }
@@ -111,7 +112,7 @@
 	background: url("../image/menu_roll.png");
 	top: 25px;
 	left: 155px;
-} 
+}
 }
 .title {
 	margin: 21px 0 20px 25px;
@@ -123,7 +124,7 @@
 	margin: 4px 0 0;
 	display: none;
 	width: 204px;
-	
+
 }
 .list-items {
 	position: relative;
@@ -138,6 +139,10 @@
 	padding-right: 5px;
 	background: url("../image/menu_roll_items.png") right top no-repeat;
 }
+.sub-menu-container:hover {
+	margin-right: -5px;
+	padding-right: 14px;
+}
 .list-items-last {
 	border-bottom: none;
 }
@@ -145,15 +150,6 @@
 .menu:hover .menu-title-roll {background: url("../image/menu_roll_hover.png");}
 .menu-a {
 	display: block;
-}
-.menu-plus {
-	display: none;
-	width: 4px;
-	height: 20px;
-	position: absolute;
-	top: 0;
-	left: 204px;
-	background: url("../image/menu+.png");
 }
 .sub-menu {
 	display: none;
@@ -168,7 +164,7 @@
 }
 .sub-menu-list-last {padding-bottom: 5px;}
 .sub-menu-list-items {
-	display: block; 
+	display: block;
 	font: 9px verdana, sans-serif;
 	color: #fff;
 	text-decoration: underline;
@@ -200,5 +196,5 @@
 	margin: 0 0 0 15px;
 	font: 20px arial, sans-serif;
 	color: #4d6c1b;
-	
+
 }
