@@ -91,6 +91,7 @@
 
 .menu {
 	display: inline-block;
+	margin: 0 0 0 14px;
 }
 .menu-title-center {
 	position: relative;
@@ -201,11 +202,11 @@
 	font: 20px arial, sans-serif;
 	color: #4d6c1b;
 }
-.sprite-about {
+.header-sprite {
 	float: left;
-	display: inline-block;
 	margin: 30px 0 0 14px;
 }
+.sprite-abour {display: inline-block;}
 .about {
 	display: inline-block;
 	border-top: 1px solid #c4c7b5;
@@ -220,8 +221,11 @@
 	background: url("../image/sprite_header.png") left top no-repeat;
 	
 }
+.service { margin: 0 0 0 -5px;}
 .about-us:hover .about {
 	background: #95916d;
 	color: #fff;
+	border-top: 1px solid #95916d;
+	border-right: 1px solid #95916d;
 }
 .about-us:hover {background: url("../image/sprite_header_hover.png") left top no-repeat;}
