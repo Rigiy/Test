@@ -89,7 +89,9 @@
 	width: 200px;
 }
 
-.menu {display: inline-block}
+.menu {
+	display: inline-block;
+}
 .menu-title-center {
 	position: relative;
 	display: block;
@@ -121,10 +123,11 @@
 	margin: 0 0 21px 5px;
 }
 .menu-list {
-	margin: 4px 0 0;
+	position: absolute;
 	display: none;
+	top: 186px;	
 	width: 204px;
-
+	padding: 4px 0 0 0;
 }
 .list-items {
 	position: relative;
@@ -151,6 +154,7 @@
 .menu-a {
 	display: block;
 }
+
 .sub-menu {
 	display: none;
 	position: absolute;
@@ -175,7 +179,7 @@
 }
 .list-items:hover .sub-menu {display: block;}
 .list-items:hover .items {background: url("../image/menu_roll_items_hover.png") right top no-repeat;}
-.list-items:hover .menu-plus {display: block;}
+
 
 .header-logo-bot {
 	margin: 0 0 0 24px;
@@ -186,7 +190,7 @@
 }
 .header-help {
 	float: right;
-	margin: 10px 14px 0 0;
+	margin: 20px 14px 0 0;
 }
 .header-chat {
 	font: 12px arial, sans-serif;
@@ -196,5 +200,28 @@
 	margin: 0 0 0 15px;
 	font: 20px arial, sans-serif;
 	color: #4d6c1b;
-
 }
+.sprite-about {
+	float: left;
+	display: inline-block;
+	margin: 30px 0 0 14px;
+}
+.about {
+	display: inline-block;
+	border-top: 1px solid #c4c7b5;
+	border-right: 1px solid #c4c7b5;
+	font: 10px verdana, sans-serif;
+	color: #95916d;
+	padding: 4px 5px 4px 3px;
+}
+.about-us {
+	display: inline-block;
+	padding: 0 0 0 8px;
+	background: url("../image/sprite_header.png") left top no-repeat;
+	
+}
+.about-us:hover .about {
+	background: #95916d;
+	color: #fff;
+}
+.about-us:hover {background: url("../image/sprite_header_hover.png") left top no-repeat;}
