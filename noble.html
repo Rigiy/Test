@@ -15,9 +15,31 @@
 			<div class="header-top">
 				<a class="header-logo" href="#"><img src="image/header_1.png" alt="NobleDepot"></a>
 				<ul class="header-user-list">
-					<li class="header-user-list-item MyAccount"><a href="#">My Account</a></li>
-					<li class="header-user-list-item"><a href="#">Wish List</a></li>
-					<li class="header-user-list-item"><a class="items-cart" href="#">3 items in cart</a></li>
+					<li class="header-user-list-item MyAccount"><a class="ahka" href="#">My Account</a></li>
+					<li class="header-user-list-item"><a class="ahka" href="#">Wish List</a></li>
+					<li class="header-user-list-item cart-end">
+						<div class="header-cart">
+							<div class="header-cart-title">
+								<p class="cart-title-text">ITEMS IN YOUR CART</p>
+							</div>
+							<div class="cart-center">
+								<p class="cart-center-text"><span class="first-span">(2)</span><a class="first-text" href="#">Coleman 9949-750 Road Trip Grill</a><span class="second-span">$298.00</span></p>
+								<p class="cart-center-text"><span class="first-span">(1)</span><a class="first-text" href="#">Canon PowerShot A560 7.1MP Digital Camera with 4x Optical Zoom</a><span class="second-span">$149.00</span></p>
+							</div>
+							<div class="itogo">
+								<div class="itog">
+									<span class="total">Subtotal:</span><span class="prise">$447.00</span>
+								</div>
+								<div class="itog">
+									<span class="total">Estimated Shipping:</span><span class="prise">5.00</span>
+								</div>
+							</div>
+							<div class="cart-bottom">
+								<a class="cart-bot-btn" href="#"><span class="cart-bot-center">PROCCED TO CHECKOUT</span></a>
+							</div>
+							</div>
+						<a class="items-cart" href="#">3 items in cart</a>
+					</li>
 				</ul>
 			</div>
 			
@@ -31,7 +53,9 @@
 			</div>
 					
 		</div>
+<!-----------------END HEADER----------->
 
+<!---------------NAV-------------->
 		<div class="menu">
 			<a class="menu-a" href="#">
 				<span class="menu-title">
@@ -86,19 +110,18 @@
 				<li class="list-items"><a class="items" href="#">Material Handling</a></li>
 				<li class="list-items list-items-last"><a class="items" href="#">Shop by Brand</a></li>
 			</ul>
-			<ul class="sub-menu">
+			
 		</div>
-		<div class="header-cart">
-			<div class="header-cart-title">
-				<p class="cart-title-text">ITEMS IN YOUR CART</p>
-				<a class="title-btn" href="#"><img src="image/title_btn.png"></a>
+		
+		<form class="search" action="search.php" name="search">
+			<div class="search-right">
+				<div class="search-bg">
+					<label class="search-label" for="search-input" name="search-label">SEARCH</label>
+					<input class="search-text" type="text" name="search-text" id="search-input">
+					<input class="search-submit" type="submit" name="search-submit" value="GO">
+				</div>
 			</div>
-			<div class="cart-center">
-					<p class="cart-center-text"><span class="first-span">(2)</span><a class="first-text" href="#">Coleman 9949-750 Road Trip Grill</a><span class="second-span">$298.00</span></p>
-					<p class="cart-center-text"><span class="first-span big-text">(1)</span><a class="first-text" href="#">Canon PowerShot A560 7.1MP Digital<br>Camera with 4x Optical Zoom</a><span class="second-span">$149.00</span></p>
-					
-			</div>
-		</div>
+		</form>
 	</div>
  </body>
 </html>
