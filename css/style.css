@@ -57,31 +57,46 @@
 .header-cart {
 	display: none;
 	position: absolute;
-	top: 20px;
+	top: 17px;
 	right: 0;
 	width: 352px;
 	border: 1px solid #c4c7b5;
 	z-index: 3;
 	background: #fff;
+	-webkit-transition: opacity 0.5s, -webkit-transform 0.5s, top 0.5s;
+}
+.header-cart:hover {
+	top: 34px;
+	opacity: 0.9;
+	-webkit-transform: scale(1.2);
 }
 .cart-end {
-	padding: 0 0 10px 0;
+	padding: 0 0 5px 0;
 }
-.cart-end:hover .header-cart {display:block;}
+.cart-end:hover .header-cart {
+	display: block;
+}
 .header-cart-title {
 	height: 18px;
 	border-bottom: 1px solid #c4c7b5;
 	background: #f1f3eb;
 }
 .cart-title-text {
+	float: left;
 	font: 12px verdana, sans-serif;
 	color: #95916d;
-	padding: 0 15px 0 9px;
+	padding: 0 0 0 9px;
 	line-height: 18px;
-	background: url("../image/title_btn.png") right top no-repeat;
-	margin: 0 5px 0 0;
 }
-
+.cart-title-btn {
+	float: right;
+	width: 10px;
+	height: 10px;
+	margin: 4px 5px 0 0;
+	background: url("../image/title_btn.png") right top no-repeat;
+	text-indent: 9999px;
+	
+}
 .cart-center {
 	position: relative;
 	border-bottom: 1px solid #c4c7b5;
@@ -101,7 +116,7 @@
 .big-text {margin: 0 8px 10px 0;}
 .first-text {
 	display: inline-block;
-	width: 230px;
+	width: 204px;
 	color: #778e50;	
 }
 .second-span {
@@ -202,6 +217,7 @@
 /*-------------end header------------------/
 
 /*-------------NAV---------------*/
+.nav {overflow: hidden;}
 .menu {
 	display: inline-block;
 	float: left;
@@ -297,6 +313,7 @@
 .list-items:hover .items {background: url("../image/menu_roll_items_hover.png") right top no-repeat;}
 
 .search {
+	float: left;
 	display: inline-block;
 	padding: 0 0 0 20px;
 	margin: 0 0 0 -14px;
@@ -327,19 +344,45 @@
 	padding: 0;
 	margin: 16px 0 0 0;	
 }
+.search-value {
+	display: inline-block;
+	padding: 0 8px 0 0;
+	background: url("../image/search_btn.png") right 17px no-repeat;
+}
 .search-submit {
 	font: 10px verdana, sans-serif;
 	color: #8b9f6a;
-	border: none;
-	padding: 5px 10px 5px 5px;
+	padding: 5px 0 5px 5px;
 	margin: 0 0 2px 10px;
-	background: url("../image/search_btn.png") left top no-repeat;
-	
+	border: 1px solid #c2cdb1;
+	border-width: 1px 0;
+	background: #fff;	
 }
 
-
-
-
+.gover {
+	display: inline-block;
+	width: 167px;
+	padding: 5px 0 6px 20px;
+	font: 12px verdana, sans-serif;
+	color: #fff;
+	background: url("../image/buyers_bg.png") left top repeat-x;	
+}
+.nav-right-first {
+	display: inline-block;
+	padding: 0 0 5px 10px;
+	margin: 0 0 0 -4px;
+	background: url("../image/buyers_left.png") left top no-repeat;
+}
+.corp {
+	width: 177px;
+	padding: 5px 0 5px 20px;
+	background: url("../image/buyers_bg2.png") left top repeat-x;
+}
+.nav-right-second {
+	padding: 0 0 0 10px;
+	margin: 0 0 0 -14px;
+	background: url("../image/buyers_left2.png") left top no-repeat;
+}
 
 
 
