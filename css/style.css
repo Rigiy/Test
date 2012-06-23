@@ -11,13 +11,16 @@
 /*-----------HEADER---------------*/
 
 .header {
-	background: url("../image/sprite_top.png") left top repeat-x;
+	
 	height: 130px;
 	border-bottom: 2px solid #95916d;
 }
+.top-bg {
+	height: 22px;
+	background: url("../image/sprite_bg.png") left top repeat-x;
+}
 .header-top {
 	margin: 0 15px 0 27px;
-	padding-top: 22px;
 }
 .header-logo {
 	float: left;
@@ -35,7 +38,7 @@
 
 .MyAccount {
 	padding-left: 26px;
-	background: url("../image/sprite.png") left top no-repeat;
+	background: url("../image/sprite_image.png") left top no-repeat;
 }
 .header-user-list-item .ahka {color: #808789;}
 .header-user-list-item .ahka:hover {
@@ -44,13 +47,13 @@
 }
 .items-cart {
 	padding-right: 20px;
-	background: url("../image/sprite.png") right -21px no-repeat;
+	background: url("../image/sprite_image.png") right -20px no-repeat;
 }
 
 .items-cart  {color: #778e50;}
 .items-cart:hover {
 	color: #4d6c1b;
-	background: url("../image/sprite.png") right -34px no-repeat;
+	background: url("../image/sprite_image.png") right -32px no-repeat;
 	text-decoration: underline;
 }
 
@@ -93,7 +96,7 @@
 	width: 10px;
 	height: 10px;
 	margin: 4px 5px 0 0;
-	background: url("../image/title_btn.png") right top no-repeat;
+	background: url("../image/sprite_image.png") right -44px no-repeat;
 	text-indent: 9999px;
 	
 }
@@ -152,9 +155,9 @@
 .cart-bot-center {
 	display: block;
 	width: 168px;
-	height: 24px;
-	padding: 0 0 0 11px;
-	background: url("../image/sprite_btn.png") left top repeat-x;
+	height: 22px;
+	padding: 0 0 2px 11px;
+	background: url("../image/sprite_bg.png") left -22px repeat-x;
 	border: 1px solid #788f51;
 	border-width: 1px 0 1px 0;
 	font: 12px/26px verdana, sans-serif;
@@ -163,8 +166,8 @@
 .cart-bot-btn {
 	display: inline-block;
 	margin: 11px 0 8px 144px;
-	padding: 0 9px 0 10px;
-	background: url("../image/sprite_btn_right.png") right top no-repeat;
+	padding: 0 8px 0 10px;
+	background: url("../image/sprite_image.png") right -54px no-repeat;
 }
 .header-logo-bot {
 	margin: 0 0 0 24px;
@@ -202,7 +205,7 @@
 .about-us {
 	display: inline-block;
 	padding: 0 0 0 8px;
-	background: url("../image/sprite_header.png") left top no-repeat;
+	background: url("../image/sprite_image.png") left -80px no-repeat;
 	margin: 0 0 0 -5px;
 }
 
@@ -213,7 +216,7 @@
 	border-top: 1px solid #95916d;
 	border-right: 1px solid #95916d;
 }
-.about-us:hover {background: url("../image/sprite_header_hover.png") left top no-repeat;}
+.about-us:hover {background: url("../image/sprite_image.png") left -101px no-repeat;}
 /*-------------end header------------------/
 
 /*-------------NAV---------------*/
@@ -230,19 +233,19 @@
 	color: #fff;
 	width: 180px;
 	padding: 0 0 0 25px;
-	background: url("../image/sprite_menu.png") left top repeat-x;
+	background: url("../image/sprite_bg.png") left -46px repeat-x;
 }
 .menu-title {
 	display: block;
 	padding-right: 21px;
-	background: url("../image/sprite_menu_right.png") right top no-repeat;
+	background: url("../image/sprite_image.png") right -159px no-repeat;
 }
 .menu-title-roll {
 	display: block;
 	position: absolute;
 	width: 18px;
-	height: 8px;
-	background: url("../image/menu_roll.png");
+	height: 7px;
+	background: url("../image/sprite_image.png")left -122px;
 	top: 25px;
 	left: 155px;
 }
@@ -270,9 +273,11 @@
 .items {
 	display: block;
 	font: 11px verdana, sans-serif;
+	height: 11px;
+	margin: 0 0 2px 0;
 	color: #fff;
 	padding-right: 5px;
-	background: url("../image/menu_roll_items.png") right top no-repeat;
+	background: url("../image/sprite_image.png") right -137px no-repeat;
 }
 .sub-menu-container:hover {
 	margin-right: -5px;
@@ -282,7 +287,7 @@
 	border-bottom: none;
 }
 .menu:hover  .menu-list{display: block;}
-.menu:hover .menu-title-roll {background: url("../image/menu_roll_hover.png");}
+.menu:hover .menu-title-roll {background: url("../image/sprite_image.png") left -129px;}
 .menu-a {
 	display: block;
 }
@@ -310,25 +315,25 @@
 	text-decoration: underline;
 }
 .list-items:hover .sub-menu {display: block;}
-.list-items:hover .items {background: url("../image/menu_roll_items_hover.png") right top no-repeat;}
+.list-items:hover .items {background: url("../image/sprite_image.png") right -148px no-repeat;}
 
 .search {
 	float: left;
 	display: inline-block;
 	padding: 0 0 0 20px;
 	margin: 0 0 0 -14px;
-	background: url("../image/search_left.png") left top no-repeat;
+	background: url("../image/sprite_image.png") left -213px no-repeat;
 	font: 13px/54px verdana, sans-serif;
 	color: #fff;
 }
 .search-bg {
 	width: 550px;
 	padding: 0 0 0 1px;
-	background: url("../image/search_bg.png") left top repeat-x;
+	background: url("../image/sprite_bg.png") left -100px repeat-x;
 }
 .search-right {
 	padding: 0 20px 0 0;
-	background: url("../image/search_right.png") right top no-repeat;
+	background: url("../image/sprite_image.png") right -267px no-repeat;
 }
 
 .search-label {
@@ -345,15 +350,19 @@
 	margin: 16px 0 0 0;	
 }
 .search-value {
+	height: 22px;
 	display: inline-block;
 	padding: 0 8px 0 0;
-	background: url("../image/search_btn.png") right 17px no-repeat;
+	margin: 0 0 -7px 0;
+	background: url("../image/sprite_image.png") right -370px no-repeat;
 }
 .search-submit {
-	font: 10px verdana, sans-serif;
+	position: relative;
+	top: -19px;
+	font: 10px/21px verdana, sans-serif;
 	color: #8b9f6a;
-	padding: 5px 0 5px 5px;
-	margin: 0 0 2px 10px;
+	padding: 0 0 0 5px;
+	margin: 0 0 0 10px;
 	border: 1px solid #c2cdb1;
 	border-width: 1px 0;
 	background: #fff;	
@@ -365,23 +374,23 @@
 	padding: 5px 0 6px 20px;
 	font: 12px verdana, sans-serif;
 	color: #fff;
-	background: url("../image/buyers_bg.png") left top repeat-x;	
+	background: url("../image/sprite_bg.png") left -154px repeat-x;	
 }
 .nav-right-first {
 	display: inline-block;
-	padding: 0 0 5px 10px;
-	margin: 0 0 0 -4px;
-	background: url("../image/buyers_left.png") left top no-repeat;
+	padding: 0 0 0 10px;
+	margin: 0 0 5px -4px;
+	background: url("../image/sprite_image.png") left -321px no-repeat;
 }
 .corp {
 	width: 177px;
 	padding: 5px 0 5px 20px;
-	background: url("../image/buyers_bg2.png") left top repeat-x;
+	background: url("../image/sprite_bg.png") left -179px repeat-x;
 }
 .nav-right-second {
 	padding: 0 0 0 10px;
 	margin: 0 0 0 -14px;
-	background: url("../image/buyers_left2.png") left top no-repeat;
+	background: url("../image/sprite_image.png") left -346px no-repeat;
 }
 
 
