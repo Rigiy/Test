@@ -144,27 +144,4 @@ a {
 }
 
 
-/* Print styles!*/
-/*-------------------------------------------------------------------------------*/
-@media print {
-
-}
-
-
-/* Media queries!*/
-/*-------------------------------------------------------------------------------*/
-
-/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-@media screen and (max-device-width: 480px) {
-
-
-}
-
-@media all and (orientation: portrait) {
-
-}
-
-@media all and (orientation: landscape) {
-
-}
 
